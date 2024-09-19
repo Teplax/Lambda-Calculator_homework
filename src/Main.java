@@ -15,5 +15,7 @@ public class Main {
             System.out.println(e.getMessage());
         }
         calc.println.accept(c);
+
+        System.out.println(calc.isPositive.test(-5));
     }
 }
